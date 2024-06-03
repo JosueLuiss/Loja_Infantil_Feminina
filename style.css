@@ -20,10 +20,67 @@ header h1{
     font-weight: 800;
     background-color: pink;
     color: purple;
-    padding: 15px;
+    padding: 0 15px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    background-color: pink;
+    color: purple;
     border-bottom-left-radius: 0.8cm;
     border-bottom-right-radius: 0.8cm;
     box-shadow: 0 0 20px;
+    cursor: pointer;
+}
+
+header li{
+    margin: 1rem 3rem;
+}
+
+main #produtos h2{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    color: purple;
+    font-size: 25pt;
+}
+
+main #produto{
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1cm;
+    box-shadow: 0 0 30px palevioletred;
+    margin: 3rem 0 0 4.2rem;
+}
+
+.classificacao ion-icon {
+    color: #f5a320;
+}
+
+main #sobre{
+    margin: 0 auto;
+}
+
+main #sobre h2{
+    text-align: center;
+    font-size: 30pt;
+    color: blueviolet;
+    margin-top: 3rem;
+}
+
+main #sobre-nos{
+    width: 50rem;
+    background-color: white;
+    padding: 3rem;
+    font-size: 15pt;
+    margin: 1rem auto;
+    border-radius: 1cm;
+    box-shadow: 0 0 30px rgb(236, 52, 83);
+
 }
 
 main #add-roupa h3{
@@ -121,8 +178,60 @@ footer{
     font-weight: 800;
 }
 
+@media(min-width: 300px){
+    main #sobre-nos{
+        width: 50rem;
+        background-color: white;
+        padding: 1rem;
+        font-size: 15pt;
+        margin: 1rem auto;
+        border-radius: 1cm;
+        box-shadow: 0 0 30px rgb(236, 52, 83);
+    }
+
+    header li{
+        margin: 1rem 1rem;
+        font-size: 9pt;
+    }
+
+    main #produto{
+        display: inline-block;
+        width: 300px;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1cm;
+        box-shadow: 0 0 30px palevioletred;
+        margin: 3rem 0 0 2.2rem;
+    }
+}
+
 
 @media(min-width: 400px){
+
+    main #produto{
+        display: inline-block;
+        width: 300px;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1cm;
+        box-shadow: 0 0 30px palevioletred;
+        margin: 3rem 0 0 3.5rem;
+    }
+
+    main #sobre-nos{
+        width: 50rem;
+        background-color: white;
+        padding: 1rem;
+        font-size: 15pt;
+        margin: 1rem auto;
+        border-radius: 1cm;
+        box-shadow: 0 0 30px rgb(236, 52, 83);
+    }
+
+    header li{
+        margin: 1rem 1rem;
+        font-size: 10pt;
+    }
 
     main #add-roupa h3{
         padding: 3rem 0 0 0 ;
