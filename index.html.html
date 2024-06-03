@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Girl</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    
+    <header>
+        <h1 id="titulo">Women's children's fashion</h1><!--titulo do site-->
+    </header>
+
+    <main>
+        <section id="add-roupa">
+            <h3>Adicionar Nova Roupa</h3>
+            <form id="roupa-form">
+                <input type="text" id="tipo-de-roupa" placeholder="Tipo de roupa:">
+                <input type="text" id="tamanho" placeholder="Tamanho:">
+                <textarea id="descricao" placeholder="Descrição:"></textarea>
+                <input type="text" id="preco" placeholder="Preço:">
+                <label id="img">Adicionar Imagem:</label>
+                <input type="file" id="add-foto" placeholder="Imagem da roupa:" accept="image/*" required>
+                <button type="submit">Adicionar roupa</button>
+            </form>
+        </section>
+        <section id="listar-roupa">
+            <h3>Roupas Disponíveis:</h3>
+            <ul id="roupa-listar"></ul>
+        </section> 
+    </main>
+
+    <script src="test.js"></script>
+
+</body>
+</html>
