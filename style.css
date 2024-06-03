@@ -113,6 +113,14 @@ main #roupa-listar li{
     border-radius: 0.3cm;
 }
 
+footer{
+    text-align: center;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-weight: 800;
+}
+
 
 @media(min-width: 400px){
 
