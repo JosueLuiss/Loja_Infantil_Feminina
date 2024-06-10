@@ -7,6 +7,7 @@
 }
 
 body{
+    width: 100%;
     font-family: sans-serif;
     background-image: url(https://mannahdecoracoes.com.br/wp-content/uploads/2022/03/B582553.jpg);
     background-size:cover;
@@ -186,71 +187,63 @@ footer{
 }
 
 @media(min-width: 300px){
-    main #sobre-nos{
-        width: 50rem;
-        background-color: white;
-        padding: 1rem;
-        font-size: 15pt;
-        margin: 1rem auto;
-        border-radius: 1cm;
-        box-shadow: 0 0 30px rgb(236, 52, 83);
+
+    header h1{
+        font-size: 20pt;
+        padding: 0 10px;
     }
 
+    header ul{
+        font-size: 11pt;
+    }
+    
     header li{
-        margin: 1rem 1rem;
-        font-size: 9pt;
+        margin: 1rem 0.5rem;
     }
 
     main #produto{
-        display: inline-block;
-        width: 300px;
-        background-color: white;
-        padding: 2rem;
-        border-radius: 1cm;
-        box-shadow: 0 0 30px palevioletred;
-        margin: 3rem 0 0 2.2rem;
+        width: 200px;
+        margin: 2rem 0 0 0;
+        padding: 2rem 2rem 2rem 0rem ;
     }
+
+    main #produto p{
+        padding: 0 0 0 2rem;
+    }
+
+    main .classificacao{
+        padding-left: 2rem;
+    }
+
+    section #sobre-nos{
+        width: 330px;
+        padding: 1rem;
+    }
+
 }
 
 
 @media(min-width: 400px){
-
-    main #produto{
-        display: inline-block;
-        width: 300px;
-        background-color: white;
-        padding: 2rem;
-        border-radius: 1cm;
-        box-shadow: 0 0 30px palevioletred;
-        margin: 3rem 0 0 3.5rem;
-    }
-
-    main #sobre-nos{
-        width: 50rem;
-        background-color: white;
-        padding: 1rem;
-        font-size: 15pt;
-        margin: 1rem auto;
-        border-radius: 1cm;
-        box-shadow: 0 0 30px rgb(236, 52, 83);
-    }
-
-    header li{
-        margin: 1rem 1rem;
-        font-size: 10pt;
-    }
-
-    main #add-roupa h3{
-        padding: 3rem 0 0 0 ;
-        text-align: center;
-    }
-
-    main #roupa-form{
-        width: 22rem;
+    main #produtos{
+        width: 400px;
     }
 }
 
 @media(min-width: 500px){
+
+    main #produtos{
+        width: 100%;
+        }
+
+        main #produto{
+            margin: 0.5rem;
+        }
+
+        section #sobre-nos{
+            width: 500px;
+            padding: 1rem;
+        }
+
     main #add-roupa h3{
         padding: 3rem 0 0 0;
         text-align: center;
@@ -267,6 +260,12 @@ footer{
 }
 
 @media(min-width: 700px){
+
+    section #sobre-nos{
+        width: 700px;
+        padding: 1rem;
+    }
+
     main #add-roupa h3{
         padding: 3rem 0 0 5rem ;
         font-size: 20pt;
