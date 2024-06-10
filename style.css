@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -26,7 +27,6 @@ header h1{
 header ul{
     display: flex;
     justify-content: center;
-    font-size: 15pt;
     background-color: pink;
     color: purple;
     border-bottom-left-radius: 0.8cm;
@@ -39,6 +39,10 @@ header li{
     margin: 1rem 3rem;
 }
 
+header a{
+    color: purple;
+}
+
 main #produtos h2{
     width: 100%;
     margin-top: 3rem;
@@ -47,14 +51,17 @@ main #produtos h2{
     font-size: 25pt;
 }
 
+main #produtos{
+    text-align: center;
+}
+
 main #produto{
     display: inline-block;
     width: 300px;
     background-color: white;
-    padding: 2rem;
     border-radius: 1cm;
     box-shadow: 0 0 30px palevioletred;
-    margin: 3rem 0 0 4.2rem;
+    text-align: left;
 }
 
 .classificacao ion-icon {
